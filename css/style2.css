@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(#fdf25d, #faeb19b1);
+    font-family: cool;
+}
+
+section:nth-of-type(1) {
+    height: 100%;
+    width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#e4b7ba, #e4b7bae2);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(2) {
+    height: 100%;
+    width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#e4b7ba, #e4b7bae2);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(3) {
+    height: 100%;
+    width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#e4b7ba, #e4b7bae2);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(4) {
+    height: 100%;
+    width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#e4b7ba, #e4b7bae2);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    color: #e4b7ba;
+    text-align: center;
+    font-family: glitch;
+
+}
+
+@font-face {
+    font-family: "glitch";
+    src: url(/fonts/04B_30__.TTF);
+}
+
+@font-face {
+    font-family: "cool";
+    src: url(/fonts/Coolvetica\ Rg.otf);
+}
+
+@font-face {
+    font-family: genty;
+    src: url(/fonts/GentyDemo-Regular.ttf);
+}
+
+@font-face {
+    font-family: friends;
+    src: url(/fonts/Internet\ Friends.ttf);
+}
+
+@font-face {
+    font-family: retro;
+    src: url(/fonts/Retro\ Blendy.otf);
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #454115;
+    background-color: #e4b7ba;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    transition: ease 350ms;
+}
+
+a:hover {
+    background-color: #918b39;
+    color: #fdf25d;
+    border-radius: 0.5em;
+}
+
+img {
+    width: 15em;
+}
