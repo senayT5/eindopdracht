@@ -1,0 +1,176 @@
+body {
+    background: linear-gradient(#fdf25d, #faeb19b1);
+    font-family: pixel;
+}
+
+header {
+    color: #ffa2d7;
+    text-align: center;
+    font-family: pixel;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li {
+    font-family: glitch;
+}
+
+a {
+    text-decoration: none;
+    color: #2d2b2b;
+    background: linear-gradient(#ffa2d7, #ffa2d7c1);
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    transition: ease 350ms;
+}
+
+a:hover {
+    background-color: #716c2a;
+    color: #fdf25d;
+    border-radius: 0.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+p {
+    color: #2d2b2b;
+}
+
+ul {
+    flex-direction: column;
+}
+
+section:nth-of-type(1) {
+    height: 100%;
+    width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#ffa2d7, #ffa2d7c1);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(2) {
+    height: 100%;
+    width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#ffa2d7, #ffa2d7c1);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+    width: 11em;
+}
+
+div {
+    display: flex;
+}
+
+section:nth-of-type(3) {
+    height: 100%;
+    width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#ffa2d7, #ffa2d7c1);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(4) {
+    height: 100%;
+    width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#ffa2d7, #ffa2d7c1);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(5) {
+    height: 100%;
+    width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#ffa2d7, #ffa2d7c1);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* lettertypes */
+@font-face {
+    font-family: "glitch";
+    src: url(/fonts/04B_30__.TTF);
+}
+
+@font-face {
+    font-family: "cool";
+    src: url(/fonts/Coolvetica\ Rg.otf);
+}
+
+@font-face {
+    font-family: friends;
+    src: url(/fonts/Internet\ Friends.ttf);
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(/fonts/Pixelta.ttf);
+
+}
+
+
+
+.bronnen {
+    font-family: pixel;
+}
+
+a.link {
+    text-decoration: none;
+    color: #454115;
+    background-color: #e4b7ba;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 5em;
+    transition: ease 350ms;
+}
+
+a:hover.link {
+    background-color: #918b39;
+    color: #fdf25d;
+    border-radius: 5em;
+}
+
+.list {
+    font-family: pixel;
+    display: flex;
+    flex-direction: column;
+}
